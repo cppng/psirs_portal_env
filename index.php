@@ -15,6 +15,8 @@ $db2 = new Db2();
 
 
 $last_date_tin_db1 = $db1->get_last_sync_date(); 
+ 
+
 $last_date_tin_db2 = $db2->get_last_sync_date();
 
  

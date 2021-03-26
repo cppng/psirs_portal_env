@@ -83,7 +83,7 @@ class DB{
 
     public function save_last_update_time(){ 
 
-        $date = date("d-m-Y H:i:s.u");
+        $date = date("Y-m-d h:i:s"); 
         $query  = "UPDATE pacifier set last_update='$date'";
 
         $connection = $this->get_connection(); 
