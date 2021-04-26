@@ -1,16 +1,13 @@
 <?php
 
 
-class Db2 extends Db{
- 
-  
-
-    public function __construct(){
-
-        $this->host = "35.170.84.126";
+class Db2 extends Db{ 
+    
+    public function __construct(){ 
+        $this->host = "database-2.cbxf7rxkv8lc.eu-west-2.rds.amazonaws.com";
         $this->database = "psirs_portal";
-        $this->username = "root2";
-        $this->password = "duffHat@Zrc8";
+        $this->username = "admin";
+        $this->password = "PApassword01!";
         $this->log_tag = "Db2";
     }
 

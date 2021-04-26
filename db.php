@@ -99,7 +99,8 @@ class DB{
         if($this->connection == null){
             $this->connection = pg_connect("host={$this->host} dbname={$this->database} user={$this->username} password={$this->password}");
         }
-
+         
+        
         return $this->connection;
     }
 
